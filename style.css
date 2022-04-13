@@ -66,6 +66,21 @@ body {
     position: absolute;
 }
 
+#description {
+    float:left;
+    width:57%;
+    background: rgba(0, 0, 0, 0.253);
+    box-shadow: 0 0 40px #00275A;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius:25px;
+    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 h1 {
     color: #ffffff;
     font-size: 44px;
