@@ -23,12 +23,28 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius:25px;
+    text-align: center;
 }
 
 #mainwrapper {
-    display: table;
+
     text-align: center;
-    margin: 0 auto;
+    width: 70%;
+
+}
+
+#logosection {
+    float: left;
+    width: 30%;
+    text-align: left;
+    margin-left: 25px;
+}
+
+#loginsection {
+    float: right;
+    width: 10%;
+    background-color: #00FF00;
+    height: 100px;
 }
 
 #game {
