@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url(background.png);
+    background-image: url(background3.png);
     background-attachment: fixed;
     background-color: #000;
     color: #000;
@@ -27,24 +27,8 @@ body {
 }
 
 #mainwrapper {
-
     text-align: center;
-    width: 70%;
-
-}
-
-#logosection {
-    float: left;
-    width: 30%;
-    text-align: left;
-    margin-left: 25px;
-}
-
-#loginsection {
-    float: right;
-    width: 10%;
-    background-color: #00FF00;
-    height: 100px;
+    width: 100%;
 }
 
 #game {
