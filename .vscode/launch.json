@@ -4,12 +4,11 @@
     // Aby uzyskać więcej informacji, odwiedź stronę: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
         {
             "type": "pwa-msedge",
             "request": "launch",
             "name": "Open index.html",
-            "file": "/home/michal/GitHub/misiekii123.github.io/index.html"
+            "file": "c:\\Users\\micha\\Strona\\misiekii123.github.io\\index.html"
         }
     ]
 }
