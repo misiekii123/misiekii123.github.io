@@ -29,6 +29,16 @@ body {
 
     position: sticky;
     top: 0;
+
+    box-shadow: 0 20px 10px #17181F;
+}
+
+.headercontent{
+    padding: 10px;
+    background: #14151b;
+    border-radius: 25px;
+    text-align: center;
+
 }
 
 .container {
@@ -147,4 +157,3 @@ a:focus {
     box-shadow: 0 0 20px #6C72CB;
     transition: box-shadow 0.3s ease-in;
 }
-
