@@ -14,6 +14,23 @@ body {
     margin-bottom: 25px;
 }
 
+.header {
+    background: rgba(0, 0, 0, 0.253);
+    margin-top: 23px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+
+    padding: 4px;
+
+    background: linear-gradient(to right, #6C72CB, #EEEDF0, #CB69C1);
+
+    border-radius: 25px;
+
+    position: sticky;
+    top: 0;
+}
+
 .container {
     background: rgba(0, 0, 0, 0.253);
     margin-top: 23px;
