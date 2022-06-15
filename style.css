@@ -5,92 +5,52 @@
 }
 
 body {
-    background-image: url(background3.png);
     background-attachment: fixed;
-    background-color: #000;
+    background-color: #17181F;
+
     color: #000;
     font-family: Arial, Verdana, Tahoma;
     font-size: 12px;
     margin-bottom: 25px;
 }
 
-#main {
+.container {
     background: rgba(0, 0, 0, 0.253);
-    box-shadow: 0 0 40px #00275A;
     margin-top: 23px;
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 50px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-radius:25px;
+
+    padding: 4px;
+
+    background: linear-gradient(to right, #6C72CB, #EEEDF0, #CB69C1);
+
+    border-radius: 25px;
+}
+
+.content{
+    padding: 10px;
+    background: #14151b;
+    border-radius: 25px;
     text-align: center;
 }
 
-#mainwrapper {
-    text-align: center;
-    width: 100%;
-}
-
-#game {
-    display: table;
-    text-align: center;
-    margin-top: 8px;
-    padding-top: 30px;
-    border-radius:25px;
-    width: 100%;
-    height: 100%;
-  }
-
-#content {
-    background: rgba(0, 0, 0, 0.253);
-    box-shadow: 0px 0px 40px #00275A;
-    text-align: center;
-    margin-top: 15px;
-    margin-left: 100px;
-    margin-right: 100px;
-    border-radius:25px;
-    padding-top: 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-#long{
+.long {
     text-align: center;
     margin-left: 300px;
     margin-right: 300px;
 }
 
-#footer {
-    display: flex;
-    justify-content: center;
-    bottom: 0px;
-    position: fixed;
-}
-
-#description {
-    float:left;
-    width:57%;
-    background: rgba(0, 0, 0, 0.253);
-    box-shadow: 0 0 40px #00275A;
-    text-align: center;
-    margin-top: 15px;
-    margin-left: 100px;
-    margin-right: 100px;
-    border-radius:25px;
-    padding-top: 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
 
 h1 {
-    color: #ffffff;
+    color: #EEEDF0;
     font-size: 44px;
     font-weight: normal;
     text-shadow: 1px 1px 2px #A7A7A7;
 }
 
 h2 {
-    color: #ffffff;
+    color: #EEEDF0;
     font-weight: normal;
     font-size: 25px;
     text-shadow: 1px 1px 2px #D4D4D4;
@@ -108,7 +68,7 @@ h3 {
 }
 
 h4 {
-    color: #ffffff;
+    color: #EEEDF0;
     font-weight: normal;
     font-size: 25px;
     text-shadow: 1px 1px 2px #000000;
@@ -127,7 +87,7 @@ p {
 
 a {
 
-    color: #ffffff;
+    color: #EEEDF0;
     text-align: center;
     text-shadow: 1px 1px 2px #000000;
     text-decoration: none;
@@ -137,7 +97,7 @@ a {
 
 b {
 
-    color: #ffffff;
+    color: #EEEDF0;
     text-align: center;
     text-shadow: 1px 1px 2px #000000;
     text-decoration: none;
@@ -146,7 +106,7 @@ b {
 }
 
 c {
-    color: #ffffff;
+    color: #EEEDF0;
     text-align: center;
     text-shadow: 1px 1px 2px #000000;
     text-decoration: none;
@@ -158,3 +118,16 @@ a:hover,
 a:focus {
     text-decoration: underline;
 }
+
+.content:not(:focus),
+.content:not(:hover) {
+    box-shadow: 0 0 0px #6C72CB;
+    transition: box-shadow 0.3s ease-out;
+}
+
+.content:hover,
+.content:focus {
+    box-shadow: 0 0 20px #6C72CB;
+    transition: box-shadow 0.3s ease-in;
+}
+
