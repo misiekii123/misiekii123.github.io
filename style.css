@@ -17,8 +17,8 @@ body {
 .header {
     background: rgba(0, 0, 0, 0.253);
     margin-top: 23px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-bottom: 50px;
 
     padding: 4px;
@@ -64,8 +64,8 @@ body {
 
 .long {
     text-align: center;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 
