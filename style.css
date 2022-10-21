@@ -17,8 +17,8 @@ body {
 .header {
     background: rgba(0, 0, 0, 0.253);
     margin-top: 23px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
     margin-bottom: 50px;
 
     padding: 4px;
@@ -44,8 +44,8 @@ body {
 .container {
     background: rgba(0, 0, 0, 0.253);
     margin-top: 23px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 2%;
+    margin-right: 2%;
     margin-bottom: 50px;
 
     padding: 4px;
