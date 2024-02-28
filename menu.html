@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="icon" href="/Assets/favicon.ico">
+    <title>Menu</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="menu-style.css" />
+
+    <script defer src="scripts/responsive-menu.js"></script>
+    <script defer src="scripts/toggle-language-pc.js"></script>
+    <script defer src="scripts/toggle-language-phone.js"></script>
+    <script defer src="scripts/cookie-manager.js"></script>
+
+</head>
+
+<body>
+    <div class="menu-container">
+        <div class="logo">
+            <!-- <img src="Assets/logo_white.png" alt="SpaceCoffee" width="105" height="64"> -->
+            <h3>misiekii123</h3>
+        </div>
+        <div class="menu-toggle">&#9776;</div>
+        <nav class="menu">
+            <ul>
+                <li><a lang="en-US" href="#">Home</a></li>
+                <li><a lang="pl-PL" href="#">Strona główna</a></li>
+                <li><a lang="en-US" href="#">About me</a></li>
+                <li><a lang="pl-PL" href="#">O mnie</a></li>
+                <li><a lang="en-US" href="#">Projects</a></li>
+                <li><a lang="pl-PL" href="#">Projekty</a></li>
+                <li><a lang="en-US" href="#">Contact</a></li>
+                <li><a lang="pl-PL" href="#">Kontakt</a></li>
+
+                <select class="lang-select" name="language" id="lang-sel-pc">
+                    <option value="pl-PL">Polski</option>
+                    <option value="en-US">English</option>
+                </select>
+            </ul>
+        </nav>
+        <div class="phone-menu">
+            <ul>
+                <li><a lang="en-US" href="#">Home</a></li>
+                <li><a lang="pl-PL" href="#">Strona główna</a></li>
+                <li><a lang="en-US" href="#">About me</a></li>
+                <li><a lang="pl-PL" href="#">O mnie</a></li>
+                <li><a lang="en-US" href="#">Projects</a></li>
+                <li><a lang="pl-PL" href="#">Projekty</a></li>
+                <li><a lang="en-US" href="#">Contact</a></li>
+                <li><a lang="pl-PL" href="#">Kontakt</a></li>
+
+                <select class="lang-select" name="language" id="lang-sel-phone"
+                    onchange='document.querySelector(".phone-menu").classList.toggle("active");'>
+                    <option value="pl-PL">Polski</option>
+                    <option value="en-US">English</option>
+                </select>
+            </ul>
+        </div>
+
+    </div>
+</body>
+
+</html>
