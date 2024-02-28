@@ -79,3 +79,10 @@ h2 {
 button{
     padding: 10px;
 }
+
+.home {
+    background-color: #4a4a4a;
+    padding: 10px;
+    color: #FFF;
+    margin-top: 15px;
+}
