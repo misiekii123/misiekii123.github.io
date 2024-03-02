@@ -35,6 +35,21 @@ body {
     color: #dbdbdb;
 }
 
+.card-content {
+    text-align: left;
+    margin: 20px;
+    padding: 2rem;
+    color: #dbdbdb;
+    background-color: #2f2f2f;
+    border-radius: 25px;
+}
+
+.img {
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+}
+
 .cards {
     max-width: 96%;
     margin: 0 auto;
@@ -71,8 +86,12 @@ h1 {
 }
 
 h2 {
-    margin-top: 15px;
     font-size: 27px;
+    color: #b2b2b2;
+}
+
+h3 {
+    font-size: 20px;
     color: #b2b2b2;
 }
 
@@ -80,9 +99,10 @@ button{
     padding: 10px;
 }
 
-.home {
+.btn {
     background-color: #4a4a4a;
-    padding: 10px;
+    padding: 20px;
     color: #FFF;
     margin-top: 15px;
+    border-radius: 25px;;
 }
