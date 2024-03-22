@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="icon" href="/Assets/favicon.ico">
-    <title>template</title>
+    <title lang="en-US">Projects</title>
+    <title lang="pl-PL">Projekty</title>
     <script defer src="scripts/include-menu.js"></script>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="menu-style.css" />
@@ -17,14 +18,31 @@
 
 <body>
     <div id="menu-container"></div>
-    <div class="cards">
-        <div class="card-content">
-            <img src="/Assets/MazeGame.png" class="img">
+    <div class="menu-line">
+        <div class="cards">
+            <div class="card-content">
+                <img src="/Assets/MazeGame.png" class="img">
+            </div>
+            <div class="card-content">
+                <h1>MazeGame</h1>
+                <h3 lang="pl-PL" style="margin-top: 10px;">Prosta gra wykonana w Unity. Mój pierwszy projekt.</h3>
+                <h3 lang="en-US" style="margin-top: 10px;">Simple game made in Unity. My first own project.</h3>
+                <button class="btn" onclick="location.href='/MazeGame/index.html';"><h2 lang="en-US">Play</h2><h2 lang="pl-PL">Zagraj</h2></button> 
+            </div>
         </div>
-        <div class="card-content">
-            <h1>MazeGame</h1>
-            <h3 style="margin-top: 10px;">Simple game made in Unity. My first own project.</h3>
-            <button class="btn" onclick="location.href='/MazeGame/index.html';"><h2>Play</h2></button> 
+    </div>
+
+    <div class="menu-line">
+        <div class="cards">
+            <div class="card-content">
+                <img src="/Assets/ObstacleDeath1.png" class="img">
+            </div>
+            <div class="card-content">
+                <h1>Obstacle Death</h1>
+                <h3 lang="pl-PL" style="margin-top: 10px;">Prosta gra, w której zadaniem gracza jest unikanie spadających przeszkód. Projekt został wykonany w Unity. Jest to moja pierwsza gra na telefony z systemem Android.</h3>
+                <h3 lang="en-US" style="margin-top: 10px;">A simple game in which the player's task is to avoid falling obstacles. The project was made in Unity. This is my first game for Android phones.</h3>
+                <button class="btn" onclick="location.href='https://github.com/misiekii123/ObstacleDeath/releases';"><h2 lang="en-US">Download</h2><h2 lang="pl-PL">Pobierz</h2></button> 
+            </div>
         </div>
     </div>
 </body>

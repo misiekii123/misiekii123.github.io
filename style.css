@@ -37,11 +37,15 @@ body {
 
 .card-content {
     text-align: left;
-    margin: 20px;
     padding: 2rem;
     color: #dbdbdb;
+    border-radius: 25px;
+}
+
+.menu-line {
     background-color: #2f2f2f;
     border-radius: 25px;
+    margin: 20px;
 }
 
 .img {
@@ -92,6 +96,10 @@ h2 {
 
 h3 {
     font-size: 20px;
+    color: #b2b2b2;
+}
+
+a {
     color: #b2b2b2;
 }
 
